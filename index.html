@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown</title>
+</head>
+<body>
+    <div class="boss">
+        <h1>Countdown</h1>
+        <div style="display: flex;">
+            <input style="width: 300px; height: 50px; font-size: 20px;" type="number" id="numberInput" placeholder="Enter a number" />
+            <button style="width: 300px; font-size: 25px; color: white; background-color: #000000;" id="startButton">Start Countdown</button>
+        </div>
+    </div>
+    <div style="font-size: 30px; width: 500px; height: 500px; background-color: rgba(140, 233, 160, 0.986); border-radius: 50%; display: flex; flex-direction: column; justify-content: center; align-items: center;" id="countdownDisplay">
+        <h1 id="countdownText"></h1>
+    </div>
+    <script src="next.js"></script>
+</body>
+</html>
